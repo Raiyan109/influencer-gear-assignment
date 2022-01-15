@@ -82,6 +82,22 @@ h1{
     
     
 }
+.question-part{
+    width: 100vw;
+    height: 500px;
+    background-color:lightcyan ;
+
+}
+.question-head{
+    color: rgb(41, 44, 46);
+    display: flex;
+    justify-content: center;
+}
+.question-body{
+    color: rgb(41, 44, 46);
+   margin-left: 820px ;
+    
+}
 
 
 
