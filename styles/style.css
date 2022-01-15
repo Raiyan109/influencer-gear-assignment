@@ -41,7 +41,7 @@ heading styles
     align-items: flex-end;
 }
 .header-image img{
-   width: 50%  ;
+   
    margin-left: 80px ;
 }
 .header-image:hover{
@@ -52,7 +52,9 @@ h1{
     font-size: 3em ;
 }
 .button{
+    outline: 0;
     font-family:'Poppins', sans-serif ;
+    font-size: 16px;
     font-weight: 600;
     color: white;
     background-color: #E02C6D;
@@ -61,7 +63,7 @@ h1{
     
 }
 .button:hover{
-    width: 400px ;
+    width: 300px ;
 }
 
 /*---------------------------------------
@@ -85,13 +87,16 @@ h1{
 }
 .product{
     display: grid;
+    justify-content: center;
     border: 1px solid whitesmoke;
     background-color: white;
     margin: 20px ;
-    padding: 20px ;
-    justify-content: center;
+    padding: 10px  ;
+    
     
 }
+
+
 .fa-star{
     color: gold;
     
@@ -157,14 +162,28 @@ footer style
     margin: 10px 0 40px 160px;
     }
     .social-icons{
-    color: ivory;
-    font-size: 30px;
-    
-    margin-left: 1000px ;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    }
+    .social-icons li{
+        margin: 0 10px;
     }
     
     .social-icons a{
+        text-decoration: none;
+        color: #fff;
+        border: 1.1px solid white;
+        padding: 5px;
+        border-radius: 50%;
         margin: 10px;
+    }
+    .social-icons a i{
+        font-size: 1.1rem;
+        width: 20px;
+
     }
 
 
@@ -179,17 +198,21 @@ footer style
   -------------------------*/
 
 @media only screen and (max-width:688px) {
-    .influencer-products{
-        grid-template-columns: repeat(1, 1fr);
+    .influencer-container{
+        display: flex;
+        flex-direction: column;
     }
     
     .collection-container{
+        display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
     .question-container{
         width: 100%;
     }
 }
+
+
 
 
 
