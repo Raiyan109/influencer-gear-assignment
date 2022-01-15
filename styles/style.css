@@ -33,14 +33,17 @@ heading styles
 }
 .header-image{
    width: 50vw ;
-    
-    
+}
+.header-image:hover{
+    transform: scale(1.5);
+    transition: transform 2s ease-in-out;
 }
 h1{
     font-size: 3em ;
 }
 .button{
     font-family:'Poppins', sans-serif ;
+    font-weight: 600;
     color: white;
     background-color: #E02C6D;
     padding: 10px 24px ;
