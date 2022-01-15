@@ -112,6 +112,40 @@ h1{
     
 }
 
+.footer{
+    background-color: rgb(6, 6, 59);
+    width: 100vw ;
+    height: 300px ;
+    
+    
+    }
+    .footer-info{
+    color: honeydew;
+    margin: 40px 0 40px 800px;
+    }
+    .copyright{
+    color: honeydew;
+    margin: 40px 0 40px 100px;
+    }
+    .all-rights{
+    color: honeydew;
+    margin: 10px 0 40px 160px;
+    }
+    .social-icons{
+    color: ivory;
+    font-size: 30px;
+    
+    margin-left: 1000px ;
+    }
+    .fa-facebook{
+    margin-right: 13px;
+    }
+    .fa-youtube{
+    margin-right: 13px;
+    }
+
+
+
 /*-----------------------------------------------------------------
                               Media Quaries 
  -------------------------------------------------------------------*/
@@ -141,10 +175,9 @@ h1{
  ---------------------*/
 
 
- @media only screen and (min-width:688px) and (max-width:992px ) {
-    .infproductsluencer-{
-        grid-template-columns: repeat(2, 1fr);
- }
+ @media only screen and (min-width:688px) and (max-width:992px )
+  {
+    
 
 
 
