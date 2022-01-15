@@ -7,6 +7,7 @@ fonts
  utilities
  ---------------------------------- */
 
+
 body{
     font-family:'Poppins', sans-serif ;
     background-color: #faf2f2;
@@ -111,6 +112,17 @@ h1{
    
     
 }
+.question-body a{
+    text-decoration: none;
+    color: lightseagreen;
+}
+.question-body .fas{
+    margin: 10px;
+}
+
+/* ----------------------
+footer style  
+--------------------------*/
 
 .footer{
     background-color: rgb(6, 6, 59);
@@ -137,11 +149,9 @@ h1{
     
     margin-left: 1000px ;
     }
-    .fa-facebook{
-    margin-right: 13px;
-    }
-    .fa-youtube{
-    margin-right: 13px;
+    
+    .social-icons a{
+        margin: 10px;
     }
 
 
