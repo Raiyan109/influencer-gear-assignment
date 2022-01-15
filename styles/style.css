@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body{
+    font-family:'Poppins', sans-serif ;
+}
+.influencer-products{
+    color: #3A3A3A;
+    position: absolute;
+    left: 8.33%;
+    right: 74.79%;
+    top: 2.63%;
+    bottom: 95.79%;
+}
+.header-container{
+    display: flex;
+    
+    
+}
+.header-heading{
+    position: absolute;
+    width: 582px;
+    height: 270px;
+    left: 10%;
+    top: 150px;
+
+
+}
+.header-image{
+    position: absolute;
+    width: 440px;
+    height: 414px;
+    right: 10%;
+    top: 211px;
+    
+    
+}
+h1{
+    font-size: 3em ;
+}
+.button{
+    color: white;
+    background-color: #E02C6D;
+    padding: 10px 24px ;
+    border-radius: 41px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: navy;
+   display: none;
+}
