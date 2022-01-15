@@ -9,6 +9,7 @@ fonts
 
 body{
     font-family:'Poppins', sans-serif ;
+    background-color: #faf2f2;
 }
 
 /* ----------------------------
@@ -55,16 +56,31 @@ h1{
     grid-column-gap: 2px;
     }
  .collection-heading{
+    display: flex;
     margin-top: 350px ;
     margin-left: 587px;
     margin-right: 591px ;
+}
+.collection{
+    margin-left: 20px ;
 }
 .product{
     display: grid;
     border: 1px solid whitesmoke;
     background-color: white;
     margin: 20px ;
-    padding-left: 20px ;
+    padding: 20px ;
+    justify-content: center;
+    
+}
+.fa-star{
+    color: gold;
+    
+}
+.see-more{
+    color: #E02C6DDE;
+    
+    
 }
 
 
@@ -119,6 +135,33 @@ h1{
 
 
 .footer{
-    background-color: navy;
-   display: none;
+    background-color: rgb(2, 2, 43);
+    width: 100vw ;
+    height: 300px ;
+    
+   
+}
+.footer-info{
+    color: honeydew;
+    margin: 40px 0 40px 800px;
+}
+.copyright{
+    color: honeydew;
+    margin: 40px 0 40px 100px;
+}
+.all-rights{
+    color: honeydew;
+    margin: 10px 0 40px 160px;
+}
+.social-icons{
+    color: ivory;
+    font-size: 30px;
+    
+    margin-left: 1000px ;
+}
+.fa-facebook{
+    margin-right: 13px;
+}
+.fa-youtube{
+    margin-right: 13px;
 }
