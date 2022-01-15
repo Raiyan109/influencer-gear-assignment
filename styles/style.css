@@ -22,17 +22,27 @@ heading styles
     margin-left: 120px;
 }
 .header-container{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     
     
 }
 .header-heading{
-   margin-left: 120px;
-   padding-right: 40%  ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 90px;
 
 }
 .header-image{
-   width: 50vw ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.header-image img{
+   width: 50%  ;
+   margin-left: 80px ;
 }
 .header-image:hover{
     transform: scale(1.5);
