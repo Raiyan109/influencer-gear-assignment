@@ -44,6 +44,10 @@ h1{
     background-color: #E02C6D;
     padding: 10px 24px ;
     border-radius: 41px;
+    
+}
+.button:hover{
+    width: 400px ;
 }
 
 /*---------------------------------------
@@ -54,7 +58,8 @@ h1{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 2px;
-    }
+    
+}
  .collection-heading{
     display: flex;
     margin-top: 350px ;
@@ -78,9 +83,14 @@ h1{
     
 }
 .see-more{
+    
+   text-align: right;
+    
+    
+}
+.see-more-dec{
     color: #E02C6DDE;
-    
-    
+    text-decoration: none;
 }
 .question-part{
     width: 100vw;
@@ -91,93 +101,100 @@ h1{
 .question-head{
     color: rgb(41, 44, 46);
     display: flex;
-    justify-content: center;
+   justify-content: space-evenly;
 }
 .question-body{
     color: rgb(41, 44, 46);
-   margin-left: 820px ;
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.footer{
-    background-color: rgb(2, 2, 43);
-    width: 100vw ;
-    height: 300px ;
-    
+    margin-left: 820px ;
+   display: flex;
+   flex-direction: column;
    
-}
-.footer-info{
-    color: honeydew;
-    margin: 40px 0 40px 800px;
-}
-.copyright{
-    color: honeydew;
-    margin: 40px 0 40px 100px;
-}
-.all-rights{
-    color: honeydew;
-    margin: 10px 0 40px 160px;
-}
-.social-icons{
-    color: ivory;
-    font-size: 30px;
     
-    margin-left: 1000px ;
 }
-.fa-facebook{
-    margin-right: 13px;
+
+/*-----------------------------------------------------------------
+                              Media Quaries 
+ -------------------------------------------------------------------*/
+
+
+ /*---------------------------
+  Mobile devices 
+  -------------------------*/
+
+@media only screen and (max-width:688px) {
+    .influencer-products{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .collection-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .question-container{
+        width: 100%;
+    }
 }
-.fa-youtube{
-    margin-right: 13px;
-}
+
+
+
+/*----------------------
+ Tablet device 
+ ---------------------*/
+
+
+ @media only screen and (min-width:688px) and (max-width:992px ) {
+    .infproductsluencer-{
+        grid-template-columns: repeat(2, 1fr);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
