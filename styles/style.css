@@ -1,15 +1,23 @@
+/* ---------------------------
+fonts 
+------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+/*--------------------------------
+ utilities
+ ---------------------------------- */
 
 body{
     font-family:'Poppins', sans-serif ;
 }
+
+/* ----------------------------
+heading styles 
+------------------------------*/
 .influencer-products{
     color: #3A3A3A;
-    position: absolute;
-    left: 8.33%;
-    right: 74.79%;
-    top: 2.63%;
-    bottom: 95.79%;
+    margin-top: 87px ;
+    margin-left: 120px;
 }
 .header-container{
     display: flex;
@@ -17,20 +25,12 @@ body{
     
 }
 .header-heading{
-    position: absolute;
-    width: 582px;
-    height: 270px;
-    left: 10%;
-    top: 150px;
-
+   margin-left: 120px;
+   padding-right: 40%  ;
 
 }
 .header-image{
-    position: absolute;
-    width: 440px;
-    height: 414px;
-    right: 10%;
-    top: 211px;
+   width: 50vw ;
     
     
 }
@@ -38,10 +38,33 @@ h1{
     font-size: 3em ;
 }
 .button{
+    font-family:'Poppins', sans-serif ;
     color: white;
     background-color: #E02C6D;
     padding: 10px 24px ;
     border-radius: 41px;
+}
+
+/*---------------------------------------
+ popular collection styles 
+ ----------------------------------------*/
+ .collection-container{
+    margin-left: 120px ;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 2px;
+    }
+ .collection-heading{
+    margin-top: 350px ;
+    margin-left: 587px;
+    margin-right: 591px ;
+}
+.product{
+    display: grid;
+    border: 1px solid whitesmoke;
+    background-color: white;
+    margin: 20px ;
+    padding-left: 20px ;
 }
 
 
